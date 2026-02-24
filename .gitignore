@@ -1,0 +1,10 @@
+# Lazy.nvim plugin directory (plugins are installed via lazy, not committed)
+# This might be elsewhere depending on your setup, but good to have
+
+# Neovim generated files
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
