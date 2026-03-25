@@ -12,10 +12,10 @@ return {
   },
 
   -- TELESCOPE
-  { 
-    'nvim-telescope/telescope.nvim', 
-    tag = '0.1.5', -- Back to a stable tag
-    dependencies = { 'nvim-lua/plenary.nvim' } 
+  {
+    'nvim-telescope/telescope.nvim',
+    branch = 'master', -- Use latest for Neovim 0.11+ compatibility
+    dependencies = { 'nvim-lua/plenary.nvim' }
   },
   
   --HARPOON
