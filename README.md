@@ -1,6 +1,6 @@
 # Neovim Configuration
 
-A modern Neovim configuration focused on Python development with LSP support, fuzzy finding, and efficient navigation.
+This is a simple Neovim configuration focused on Python development with LSP support, fuzzy finding, and efficient navigation.
 
 ## Prerequisites
 
