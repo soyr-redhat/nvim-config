@@ -12,7 +12,26 @@ A modern Neovim configuration focused on Python development with LSP support, fu
 
 ## Installation
 
-### Fresh Install
+### Automated Install (Recommended)
+
+Run the build script:
+```bash
+bash <(curl -s https://raw.githubusercontent.com/soyr-redhat/nvim-config/main/build.sh)
+```
+
+Or clone and run locally:
+```bash
+git clone https://github.com/soyr-redhat/nvim-config.git
+cd nvim-config
+./build.sh
+```
+
+The script will:
+- Backup your existing config (if any)
+- Clone the repository to `~/.config/nvim`
+- Install all plugins automatically
+
+### Manual Install
 
 1. Clone this repository:
 ```bash
